@@ -6,6 +6,24 @@ Ida is a small and fast image viewer, motif-based.  For people who
 don't want the KDE/GNOME overhead.  Some basic editing functions are
 available too.
 
+added by srmrfm:
+(
+
+fbi (FBI? Fbi? idk) is an image viewer for framebuffer consoles.
+It lacks most of Ida's editing features and has no file browser,
+but is just as capable an image viewer.
+
+Both are capable of fetching images, or even sets of images, for
+themselves (removed in later versions, hence the fork) and my fork
+adds https capability (ok, I just made it recognise https:// URLs, curl
+does all the work).
+
+fbpdf is a framebuffer pdf viewer, but Gerd Hoffman didn't describe it
+(or fbi) here and tbh i've never used it.
+
+fbgs is fbpdf's predecessor. Gerd doesn't recommend using it and iirc it's just a script.
+)
+
 
 build
 =====
