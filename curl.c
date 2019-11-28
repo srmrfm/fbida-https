@@ -317,6 +317,7 @@ int curl_is_url(const char *url)
     static char *protocols[] = {
 	"ftp://",
 	"http://",
+	"https://",
 	NULL,
     };
     int i;
